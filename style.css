@@ -1,0 +1,50 @@
+h1{ 
+    color:beige
+}
+a:link{
+    color:yellow
+}
+a:visited{
+    color:#6d7f9c
+}
+/* *{
+    border:dashed
+}*/
+.Angrybirds{
+    background-color:red;
+    margin: 30px;
+    /* used to make the box shorter*/
+    border: solid 30px brown;
+    /*used to give the box's border thickness and color*/
+}
+.Angrybirds:hover {
+    opacity: 0.5;
+    /*used to change opacity when mouse is hovering over the box
+   transform:translate(+20%, +10%);*/
+}
+.Angrybirds {
+    opacity:1;
+    /*used to give the default opacity*/
+}
+.Trexrunner{
+    background-color: aquamarine;
+    margin-left:20px;
+    padding-left: 150px;
+}
+.GhostTower{
+    background-color: #5f9ea5;
+    text-align: right;
+    padding-right: 200px;
+    /*used to add space between box and background*/
+}
+.Parent{
+    display:flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+.Parent2{
+    background-color: cadetblue;
+}
+body{
+    background-color: #FFFFFF;
+}
